@@ -1,0 +1,70 @@
+{
+  "name": "eu-road-safety",
+  "title": "EU road safety data for 2018",
+  "version": "1.0",
+  "sources": [
+    {
+      "name": "Wikipedia",
+      "path": "https://en.wikipedia.org/wiki/Road_safety_in_Europe",
+      "title": "Road safety in Europe"
+    }
+  ],
+  "resources": [
+    {
+      "name": "road_safety",
+      "path": "data/eu_road_safety.csv",
+      "format": "csv",
+      "mediatype": "trxt/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Area",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Population",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "GDP per capita",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Population density",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Vehicle ownership",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Total road deaths",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Road deaths per Million Inhabitants",
+            "type": "number",
+            "description": ""
+          }
+        ]
+
+      }
+    }
+  ]
+}
